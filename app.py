@@ -5,6 +5,10 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+
+# Download the punkt tokenizer data if it's not already downloaded
+nltk.download('punkt')
+
 ps = PorterStemmer()
 
 
